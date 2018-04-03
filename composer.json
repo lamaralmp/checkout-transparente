@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mercadopago/dx-php": "dev-master"
+    }
+}
