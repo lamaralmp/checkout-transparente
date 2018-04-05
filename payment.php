@@ -1,5 +1,5 @@
 <?php
-    require_once("displayerrors.php");
+    require_once("display-errors.php");
     require_once 'vendor/autoload.php';
     
     MercadoPago\SDK::setAccessToken("TEST-3676651262361900-040314-cf060faae054e1792bf6449fe3d8eb84-301120448");
