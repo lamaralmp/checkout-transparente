@@ -170,7 +170,7 @@
   
   <script type="text/javascript">
 
-        Mercadopago.setPublishableKey("TEST-366482ce-cbe8-4a57-9c08-6f08a60ed772");
+        Mercadopago.setPublishableKey($_ENV["PUBLIC_KEY"]);
         
         $(document).ready(function() {
         $("#amount").val(Math.floor(Math.random() * 600) + 10)
